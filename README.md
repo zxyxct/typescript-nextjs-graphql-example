@@ -2,8 +2,7 @@
 
 ## Nextjs-Graphql-Typescript
 
-[![N|Sandbox](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy-vEWaPjJk5l5ogphakIdpMafwfKskEVLkpQx7kFNyOSoWhhZFmwKnSwLnYEQ7QCmsA&usqp=CAU)](https://kqwcnx-3000.csb.app) <= Preview Live
-
+[![N|Sandbox](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy-vEWaPjJk5l5ogphakIdpMafwfKskEVLkpQx7kFNyOSoWhhZFmwKnSwLnYEQ7QCmsA&usqp=CAU)](https://codesandbox.io/p/github/zxyxct/typescript-nextjs-graphql-example) <= Preview Live
 ## This is an example of a couple of responsive features for an eccommerce following the best development practices and design paterns.
 
 There were made intended to be performant so it has 97 for performance and 100 in the other green flags for each topic when running lighthouse test on it, but could be better with other techniques that i didn't use because this version is not for production.
