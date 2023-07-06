@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext","es6",
+    "es7"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": true,                    /* Raise error on expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": true,                 /* Enable strict null checks. */
+    "strictFunctionTypes": true,              /* Enable strict checking of function types. */
+    "strictPropertyInitialization": true,     /* Enable strict checking of property initialization in classes. */
+    "noImplicitThis": true,                   /* Raise error on 'this' expressions with an implied 'any' type. */
+    "alwaysStrict": true,              
+    "noUnusedLocals": true,                   /* Report errors on unused locals. */
+    "noUnusedParameters": true,               /* Report errors on unused parameters. */
+    "noImplicitReturns": true,                /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true,       /* Report errors for fallthrough cases in switch statement. */
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    //"inlineSourceMap": true,                  /* Emit a single file with source maps instead of having a separate file. */
+  //  "inlineSources": true,     
+  "sourceMap": true,               /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@features/*":["features/*"],
+      "@graphql/*":["graphql/*"],
+      "@hooks/*":["hooks/*"],
+
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "features/cart/store-buttons-cart/store-product-hook.tsx", "features/products/product-item-buttons.tsx", "init.js"],
+  "exclude": ["node_modules"]
+}
+
+
